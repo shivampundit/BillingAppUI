@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Final Bill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="center">Final Bill</h1>
+    <!-- Display order details, grand total, tax amount, payable amount -->
+    <!-- You can use JavaScript to fetch the order details and amounts from the previous page and display them here -->
+    <p id="orderidP" align="right">Order ID: <span id="orderId">RANDOM_GENERATED_ORDER_ID</span></p>
+    <table>
+        <!-- Display prodSuct details here -->
+    </table>
+    <p> <b>Grand Total: </b> <span id="grandTotal">GRAND_TOTAL_AMOUNT</span></p>
+    <p> <b>In Words:</b><span id="inWords" >WORDS_AMOUNT</span></p>
+    <p><b>Tax Amount: </b><span id="taxAmount">TAX_AMOUNT</span></p>
+    <p><b>Payable Amount: </b> <span id="payableAmount">PAYABLE_AMOUNT</span></p>
+
+    <!-- Button to download bill -->
+    <button onclick="downloadBill()">Download Bill</button>
+
+    <script src="finalscript.js"></script>
+</body>
+
+</html>

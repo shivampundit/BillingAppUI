@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#billingForm {
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input{
+    margin: 7px 0;
+}
+#summary {
+    margin-top: 20px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+#summary p {
+    margin: 5px;
+}
+
+#summary p span {
+    font-weight: bold;
+}
+
+button {
+    margin-top: 10px;
+    float: right;
+}
+
+.orderidP{
+    margin-right: 400px;
+    /* padding-right: 50px;  */
+    /* right: 80px; */
+}
+
